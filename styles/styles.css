@@ -14,9 +14,14 @@ h1{
     color: #6666b8;
     font-size: 60px;
 }
+a{
+    text-decoration: none;
+}
 .container1{
+    height: 100%;
     display: flex;
     justify-content:flex-end;
+    align-items: center;
 }
 .caja{
     margin: 15px;
