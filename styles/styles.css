@@ -31,8 +31,25 @@ a{
     background-color: #f0f0fa;
     width: 100vw;
     height: 100vh;
+    border:2px solid black;
 }
 .imagen{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+section{
+    width: 50%;
+    height: 200px;
+    border:2px solid black;
+
+}
+.containerfinal{
+    border:2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.cajafinal1{
+    
 }
