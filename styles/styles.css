@@ -19,7 +19,6 @@ a{text-decoration: none;}
 section{
     width: 50%;
     height: 200px;
-    border:2px solid black;
 }
 .container1{
     height: 100%;
@@ -43,16 +42,16 @@ section{
     padding-top: 100px;
 }
 .centro{
-
     width: 500px;
     height: 150px;
     border:1px solid black;
     margin: 80px;
     padding: 20px;
-}
+    }
 .imagen{
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
 }
 
 
