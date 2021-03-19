@@ -12,7 +12,7 @@ nav{
 }
 ul{list-style: none; }
 h1{
-    color: #6666b8;
+    color:#00ACBF;
     font-size: 60px;
 }
 a{text-decoration: none;}
@@ -31,7 +31,7 @@ section{
     display: flex;
 }
 .container2{
-    background-color: #f0f0fa;
+    background-color:#00acbf15;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -44,8 +44,8 @@ section{
 .centro{
     width: 500px;
     height: 150px;
-    border:1px solid black;
     margin: 80px;
+    margin-top: 200px;
     padding: 20px;
     }
 .imagen{
