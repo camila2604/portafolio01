@@ -14,8 +14,10 @@ ul{list-style: none; }
 h1{
     color:#00ACBF;
     font-size: 60px;
+    margin: 20px;
 }
-a{text-decoration: none;}
+a{text-decoration: none;
+    color: black;}
 section{
     width: 50%;
     height: 200px;
@@ -30,13 +32,23 @@ section{
     margin: 15px;
     display: flex;
 }
+
+.caja1{
+    margin: 15px;
+    display: flex;
+    
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #00ACBF;
+    color: white;
+}
 .container2{
     background-color:#00acbf15;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: row;
-    
 }
 .padding{
     padding-top: 100px;
@@ -53,7 +65,14 @@ section{
     justify-content: center;
     align-items: center;
 }
-
+.loquehago{
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #00ACBF;
+    color: white;
+}
 
 
 
