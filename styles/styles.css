@@ -30,18 +30,15 @@ section{
 }
 .caja{
     margin: 15px;
-    display: flex;
 }
-
 .caja1{
     margin: 15px;
-    display: flex;
-    
     width: 150px;
     height: 30px;
     border-radius: 20px;
     background-color: #00ACBF;
     color: white;
+    display: flex;
 }
 .container2{
     background-color:#00acbf15;
@@ -59,6 +56,7 @@ section{
     margin: 80px;
     margin-top: 200px;
     padding: 20px;
+    
     }
 .imagen{
     display: flex;
