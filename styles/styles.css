@@ -44,7 +44,7 @@ main{
     color:white
 }
 .container2{
-    background-color:#f5fcfe;
+    background-color:#fcfeff;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -84,7 +84,6 @@ main{
     width: 100vw;
     height: 800px;
     background-color:#00acbf15;
-    /*border:2px solid black;*/
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -153,8 +152,32 @@ i{
 }
 
 
-/*-------------------------
+/*-------------------------*/
 
+.container4{
+    background-color:#00ACBF;
+    width: 100%;
+    height: 600px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.parrafo1{
+    width: 750px;
+    height: 100px;
+    padding: 40px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+h3{
+    font-size: 30px;
+}
+
+/*
 .containerfinal{
     border:2px solid black;
     display: flex;
