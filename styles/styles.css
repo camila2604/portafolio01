@@ -10,7 +10,7 @@ nav{
     background-color: white ;
     position:fixed
 }
-ul{list-style: none; }
+ul{list-style: none;}
 h1{
     color:#00ACBF;
     font-size: 60px;
@@ -35,7 +35,7 @@ main{
 .caja1{
     margin: 15px;
     width: 150px;
-    height: 30px;
+    height: 40px;
     border-radius: 20px;
     background-color: #00ACBF;
     display: flex;
@@ -109,13 +109,12 @@ main{
     height: 200px;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 60px;
 }
-
 .card{
     width: 230px;
     height: 230px;
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
     border-radius: 5px;
     background-color: white;
     margin: 20px;
@@ -123,9 +122,11 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-weight: 400px;
-    
 }
+.fab{
+    margin-bottom: 15px;
+}
+
 
 
 .fa-html5{
