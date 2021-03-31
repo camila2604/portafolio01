@@ -82,29 +82,27 @@ main{
 
 .container3{
     width: 100vw;
-    height: 800px;
+    height: 900px;
     background-color:#00acbf15;
-    display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 50px;
-
+    padding-top: 150px;
 }
 .conocimientos{
-    display: flex;
-    flex-direction: column;
-    line-height: 70px;
-    text-align: center;
+    font-size: 30px;
 }
-h2{
-    font-size: 35px;
+.parrafo{    
+    width: 500px;
+    height: 100px;
+    padding: 40px;
+    font-size: 20px;
+    margin-top: 40px;
 }
 .containerCard1{
     width: 100vw;
     height: 200px;
     display: flex;
     justify-content: center;
-    
 }
 .containerCard2{
     width: 100vw;
@@ -126,31 +124,34 @@ h2{
     align-items: center;
     flex-direction: column;
     font-weight: 400px;
-}
-
-i{
-    font-size: 80px;
     
 }
+
+
 .fa-html5{
     color:#E54D26;
+    font-size: 80px;
 }
 .fa-css3-alt{
     color:#3D8FC6;
+    font-size: 80px;
 }
 .fa-sass{
     color:#D88BB2;
+    font-size: 80px;
 }
 .fa-js{
     color:#F0DB4F;
+    font-size: 80px;
 }
 .fa-react{
     color:#61DAFB;
+    font-size: 80px;
 }
 .fa-git-alt{
     color:#F34F29;
+    font-size: 80px;
 }
-
 
 /*-------------------------*/
 
@@ -176,7 +177,9 @@ i{
 h3{
     font-size: 30px;
 }
-
+.fa-quote-right{
+    font-size: 80px;
+}
 /*
 .containerfinal{
     border:2px solid black;
