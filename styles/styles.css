@@ -3,12 +3,24 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
-nav{
+header{
+    position: fixed;
+    top:0;
     width: 100%;
     height: 80px;
-    background-color: white ;
-    position:fixed
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    color: white;
+    background-color: white;
+}
+nav{
+    width: 60%;
+    padding: auto;
+    display: flex;
+    justify-content: center;
 }
 ul{list-style: none;}
 h1{
@@ -29,6 +41,12 @@ main{
     justify-content:flex-end;
     align-items: center;
 }
+body{
+    width: 100vw;
+}
+.contenedor0{
+    width: 100%;
+}
 .caja{
     margin: 15px;
 }
@@ -43,9 +61,11 @@ main{
     align-items: center;
     color:white
 }
+
+/*-----------------------*/
 .container2{
     background-color:#fcfeff;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -81,12 +101,14 @@ main{
 /*-------------------------*/
 
 .container3{
-    width: 100vw;
-    height: 900px;
+    width: 100%;
+    height: 1000px;
     background-color:#00acbf15;
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
     flex-direction: column;
     text-align: center;
-    padding-top: 150px;
 }
 .conocimientos{
     font-size: 30px;
@@ -94,22 +116,20 @@ main{
 .parrafo{    
     width: 500px;
     height: 100px;
-    padding: 40px;
-    font-size: 20px;
-    margin-top: 40px;
+    padding: 20px;
+    font-size: 16px;
+    
 }
-.containerCard1{
-    width: 100vw;
-    height: 200px;
-    display: flex;
-    justify-content: center;
+.negrita{
+    flex-wrap: 800px;
 }
-.containerCard2{
-    width: 100vw;
+.containerCard{
+    width: 70%;
     height: 200px;
     display: flex;
     justify-content: center;
     margin-top: 60px;
+    flex-wrap: wrap;
 }
 .card{
     width: 230px;
@@ -118,13 +138,16 @@ main{
     border-radius: 5px;
     background-color: white;
     margin: 20px;
+    font-weight: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 .fab{
     margin-bottom: 15px;
+    
 }
 
 
@@ -158,7 +181,7 @@ main{
 
 .container4{
     background-color:#00ACBF;
-    width: 100vw;
+    width: 100%;
     height: 500px;
     color: white;
     text-align: center;
@@ -170,13 +193,14 @@ main{
 }
 .parrafo1{
     width: 750px;
-    height: 100px;
-    padding: 40px;
+    height: 150px;
+    padding: 30px;
     font-size: 20px;
     margin-top: 40px;
 }
 h3{
     font-size: 30px;
+    padding: 20px;
 }
 .fa-quote-right{
     font-size: 80px;
