@@ -44,7 +44,7 @@ main{
     color:white
 }
 .container2{
-    background-color:#00acbf15;
+    background-color:#f5fcfe;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -82,12 +82,14 @@ main{
 
 .container3{
     width: 100vw;
-    height: 500px;
-    border:2px solid black;
+    height: 800px;
+    background-color:#00acbf15;
+    /*border:2px solid black;*/
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 50px;
+
 }
 .conocimientos{
     display: flex;
@@ -98,12 +100,60 @@ main{
 h2{
     font-size: 35px;
 }
+.containerCard1{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+.containerCard2{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card{
+    width: 230px;
+    height: 230px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400px;
+}
+
+i{
+    font-size: 80px;
+    
+}
+.fa-html5{
+    color:#E54D26;
+}
+.fa-css3-alt{
+    color:#3D8FC6;
+}
+.fa-sass{
+    color:#D88BB2;
+}
+.fa-js{
+    color:#F0DB4F;
+}
+.fa-react{
+    color:#61DAFB;
+}
+.fa-git-alt{
+    color:#F34F29;
+}
 
 
-
-
-
-/*-------------------------*/
+/*-------------------------
 
 .containerfinal{
     border:2px solid black;
@@ -124,4 +174,4 @@ h2{
     height: 100px;
     text-align: center;
 
-}
+}*/
