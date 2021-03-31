@@ -157,7 +157,7 @@ main{
 
 .container4{
     background-color:#00ACBF;
-    width: 100%;
+    width: 100vw;
     height: 500px;
     color: white;
     text-align: center;
