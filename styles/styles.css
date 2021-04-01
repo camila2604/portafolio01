@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+    overflow-x:hidden
+}
 header{
     position: fixed;
     top:0;
@@ -41,12 +45,6 @@ main{
     justify-content:flex-end;
     align-items: center;
 }
-body{
-    width: 100vw;
-}
-.contenedor0{
-    width: 100%;
-}
 .caja{
     margin: 15px;
 }
@@ -61,12 +59,10 @@ body{
     align-items: center;
     color:white
 }
-
 /*-----------------------*/
 .container2{
     background-color:#fcfeff;
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: row;
     
@@ -75,11 +71,11 @@ body{
     padding-top: 100px;
 }
 .centro{
-    width: 500px;
+    width: 50%;
     height: 150px;
-    margin: 80px;
+    margin-left: 100px;
     margin-top: 200px;
-    padding: 20px;
+    padding: 50px;
     }
 .imagen{
     display: flex;
@@ -102,9 +98,9 @@ body{
 
 .container3{
     width: 100%;
-    height: 1000px;
+    height: 900px;
     background-color:#00acbf15;
-    padding-top: 200px;
+    padding-top: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -118,7 +114,6 @@ body{
     height: 100px;
     padding: 20px;
     font-size: 16px;
-    
 }
 .negrita{
     flex-wrap: 800px;
@@ -205,6 +200,13 @@ h3{
 .fa-quote-right{
     font-size: 80px;
 }
+/*--------------------------------*/
+
+
+
+
+
+
 /*
 .containerfinal{
     border:2px solid black;
