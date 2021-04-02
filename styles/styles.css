@@ -65,7 +65,6 @@ main{
     width: 100%;
     display: flex;
     flex-direction: row;
-    
 }
 .padding{
     padding-top: 100px;
@@ -94,6 +93,7 @@ main{
     align-items: center;
 }
 
+
 /*-------------------------*/
 
 .container3{
@@ -112,7 +112,7 @@ main{
 .parrafo{    
     width: 500px;
     height: 100px;
-    padding: 20px;
+    padding: 50px;
     font-size: 16px;
 }
 .negrita{
@@ -141,12 +141,7 @@ main{
     
 }
 .fab{
-    margin-bottom: 15px;
-    
-}
-
-
-
+    margin-bottom: 15px;}
 .fa-html5{
     color:#E54D26;
     font-size: 80px;
@@ -201,7 +196,14 @@ h3{
     font-size: 80px;
 }
 /*--------------------------------*/
-
+.container5{
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+.proyectos{
+    
+}
 
 
 
