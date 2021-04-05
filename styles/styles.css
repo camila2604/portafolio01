@@ -61,7 +61,7 @@ main{
 }
 /*-----------------------*/
 .padding{
-    padding-top: 100px;
+    padding-top: 100px; /* Separa la parte de arriba para que se vea la foto*/
 }
 .container2{
     background-color:#fcfeff;
@@ -277,7 +277,6 @@ h3{
     border:1px solid black;
     display: flex;
     border-radius: 15px;
-    
 }
 .cajafinal1{
     width: 50%;
@@ -286,7 +285,6 @@ h3{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    /*border:1px solid black;*/
 }
 .contactame{
     font-weight: 900;
@@ -301,21 +299,67 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border:1px solid black
+    margin-left: 15%;
 }
-.fab{
+.fa-twitter{
     color: #00ACBF;
+    font-size: 20px;
     }
+.fa-github-alt{
+    color: #00ACBF;
+    font-size: 20px;
+}
+.fa-linkedin-in{
+    color: #00ACBF;
+    font-size: 20px;
+}
 .fas{
     color: #00ACBF;
+    font-size: 20px;
 }
-
-
+.separado{
+    margin-left: 15px;
+}
 .cajafinal2{
     width: 50%;
-    height: 500px;
-    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     border:1px solid black;
 }
 
 /*-----------------------*/
+.containerFooter1{
+    width: 100%;
+    height: 300px;
+    background-color: #00ACBF;
+    color:white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.containerFooter2{
+    display: flex;
+    flex-direction: row;
+    margin:5px;
+}
+.cajaFooter{
+    color: white;
+    margin:10px;
+}
+.color3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin:10px;
+}
+.containerFooter3{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
