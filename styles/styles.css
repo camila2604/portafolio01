@@ -92,7 +92,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-.color{
+.color1{
     color: white;
 }
 
@@ -245,8 +245,6 @@ h3{
     height: 310px;
     border: 1px solid gray;
     border-radius: 10px;
-    color:rgb(104, 104, 104) ;
-    font-weight: 600;
     margin: 20px;
     flex-direction: column;
 }
@@ -258,6 +256,8 @@ h3{
 .mt20{
     position: relative;
     top:30px;
+    color:rgb(104, 104, 104);
+    font-weight: 600;
 }
 
 /*-------------------*/
@@ -285,6 +285,7 @@ h3{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+
 }
 .contactame{
     font-weight: 900;
@@ -300,25 +301,19 @@ h3{
     flex-direction: column;
     justify-content: space-between;
     margin-left: 15%;
+    padding-bottom: 50px;
 }
-.fa-twitter{
+.cambios2{
     color: #00ACBF;
     font-size: 20px;
-    }
-.fa-github-alt{
-    color: #00ACBF;
-    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
 }
-.fa-linkedin-in{
-    color: #00ACBF;
-    font-size: 20px;
-}
-.fas{
-    color: #00ACBF;
-    font-size: 20px;
-}
-.separado{
-    margin-left: 15px;
+.color2{
+    color:black;
 }
 .cajafinal2{
     width: 50%;
@@ -349,11 +344,12 @@ h3{
     color: white;
     margin:10px;
 }
-.color3{
+.cambios3{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: white;
+    color: #00ACBF;
     text-align: center;
     padding-top: 10px;
     margin:10px;
