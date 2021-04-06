@@ -285,7 +285,6 @@ h3{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-
 }
 .contactame{
     font-weight: 900;
@@ -293,28 +292,34 @@ h3{
     margin-left: 50px;
 }
 .lorem{
-    margin:50px;
+    margin:5%;
+    width: 70%;
+    padding-left: 30px;
 }
 .containerfinal3{
-    height: 190px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 15%;
     padding-bottom: 50px;
+
 }
 .cambios2{
     color: #00ACBF;
     font-size: 20px;
+    border-radius: 50%;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     text-align: center;
-    padding-top: 10px;
+    padding: 10px;
 }
 .color2{
     color:black;
 }
+
+/*--Terminar Formulario--*/
+
 .cajafinal2{
     width: 50%;
     display: flex;
@@ -322,6 +327,13 @@ h3{
     flex-direction: column;
     border:1px solid black;
 }
+
+
+
+
+
+
+
 
 /*-----------------------*/
 .containerFooter1{
