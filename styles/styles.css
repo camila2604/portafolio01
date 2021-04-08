@@ -287,13 +287,15 @@ h2{
     width: 70%;
     padding-left: 30px;
 }
-.container-item{
+
+
+.container-contactos{
     height: 250px;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-bottom: 50px;*/
     margin-left: 15%;
-    padding-bottom: 50px;
 }
 .cambios2{
     color: #00ACBF;
@@ -304,9 +306,7 @@ h2{
     padding:10px ;
     text-align: center;
 }
-.color2{
-    color:black;
-}
+
 /*--Formulario--*/
 .cajafinal2{
     width: 50%;
