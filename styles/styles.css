@@ -7,7 +7,7 @@
 }
 body{
     width: 100vw;
-    overflow-x:hidden
+    /*overflow-x:hidden*/
 }
 header{
     width: 100%;
@@ -55,16 +55,11 @@ a{
 }
 /*-----------------------*/
 .padding{
-    padding-top: 100px; /* Separa la parte de arriba para que se vea la foto*/
+    padding-top: 5%; /* Separa la parte de arriba para que se vea la foto*/
 }
 main{
     display: flex;
     flex-direction: column;
-}
-h1{
-    color:#00ACBF;
-    font-size: 60px;
-    margin: 15px;
 }
 .container2{
     background-color:#fcfeff;
@@ -73,17 +68,22 @@ h1{
     flex-direction: row;
     padding-top: 50px;
 }
-.centro{
+h1{
+    color:#00ACBF;
+    font-size: 60px;
+}
+.holaSoy{
     width: 50%;
-    height: 150px;
-    margin-left: 100px;
-    margin-top: 130px;
-    padding: 50px;
+    height: 15%;
+    margin: 5em;
+    margin-top: 10%;
+    padding: 1em;
+
 }
 .lo-que-hago{
-    margin: 20px;
-    width: 200px;
-    height: 40px;
+    margin: 8%;
+    width: 12em;
+    height: 2.5em;
     border-radius: 20px;
     background-color: #00ACBF;
     display: flex;
@@ -93,16 +93,21 @@ h1{
 .color1{
     color: white;
 }
+
 .imagen{
+    width: 50%;
+    height: 50%;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    padding-bottom: 5%;
+
 }
 
 /*-------------------------*/
 .container3{
     width: 100%;
-    padding-top: 100px;
+    padding-top: 8%;
     background-color:#00acbf15;
     display: flex;
     align-items: center;
@@ -110,28 +115,25 @@ h1{
     text-align: center;
 }
 .conocimientos{
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 2em;
+    font-weight: 800;
     padding-top: 50px;
 }
 .parrafo{    
-    width: 500px;
-    height: 100px;
+    width: 35%;
     padding: 40px;
     font-size: 16px;
 }
 .container-card{
     width: 70%;
-    height: 600px;
     display: flex;
     justify-content: center;
-    margin: 60px;
     flex-wrap: wrap;
     padding-bottom: 80px;
 }
 .card{
-    width: 260px;
-    height: 230px;
+    width: 15em;
+    height: 13em;
     border: 1px solid lightgrey;
     border-radius: 10px;
     background-color: white;
@@ -144,34 +146,34 @@ h1{
     
 }
 .tamaño{
-    font-size: 20px;
+    font-size: 100%;
 }
 .fab{
     margin-bottom: 15px;
 }
 .fa-html5{
     color:#E54D26;
-    font-size: 80px;
+    font-size: 5em;
 }
 .fa-css3-alt{
     color:#3D8FC6;
-    font-size: 80px;
+    font-size: 5em;
 }
 .fa-sass{
     color:#D88BB2;
-    font-size: 80px;
+    font-size: 5em;
 }
 .fa-js{
     color:#F0DB4F;
-    font-size: 80px;
+    font-size: 5em;
 }
 .fa-react{
     color:#61DAFB;
-    font-size: 80px;
+    font-size: 5em;
 }
 .fa-git-alt{
     color:#F34F29;
-    font-size: 80px;
+    font-size: 5em;
 }
 /*-------------------------*/
 .container4{
@@ -186,11 +188,11 @@ h1{
 }
 .fa-quote-right{
     font-size: 80px;
-    margin-top: 110px;
+    margin-top: 2em;
 }
 .parrafo1{
-    width: 750px;
-    height: 150px;
+    width: 50%;
+    height: 50%;
     font-size: 20px;
     margin-top: 40px;
     padding: 20px;
@@ -213,7 +215,7 @@ h4{
 }
 .proyectos{
     width: 50%;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 150px;
     display: flex;
     align-items: center;
@@ -234,19 +236,18 @@ h4{
 .card-foto{
     width: 29%;
     height: 290px;
+    color: gray;
     border: 1px solid gray;
     border-radius: 10px;
     margin: 20px;
     flex-direction: column;
 }
 .tamaño2{
-    border-radius: 15px;
     width: 100%;
-    height: 200px;
-    
+    height: 70%;
+    border-radius: 15px;
 }
 h5{
-    /*position: relative;*/
     margin-top:10%;
     font-weight: 600;
     font-size: 15px;
@@ -277,25 +278,27 @@ h5{
     align-items: flex-start;
     flex-direction: column;
 }
-h2{
+.contactame-escribime{
     font-weight: 900;
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 50px;
 }
 .lorem{
     margin:5%;
     width: 70%;
     padding-left: 30px;
+    text-align: center;
 }
 
 
 .container-contactos{
-    height: 250px;
-    /*display: flex;
+    height: 50em;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 50px;*/
+    padding-bottom: 50px;
     margin-left: 15%;
+    
 }
 .cambios2{
     color: #00ACBF;
@@ -303,7 +306,7 @@ h2{
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    padding:10px ;
+    padding:10px;
     text-align: center;
 }
 
@@ -341,32 +344,32 @@ label{
 }
 input{
     width: 100%;
-    height: 40px;
+    height: 3em;
     background-color: #e7e7e9;
-    border-radius: 20px;
-    padding-left: 15px;
+    border-radius: 2em;
+    padding-left: 1.5em;
     border:1px solid #00ACBF;
     outline: none;
-    margin: 10px;
+    margin: 1em;
 }
 textarea{
     width: 100%;
-    height: 150px;
+    height: 10em;
     background-color: #e7e7e9;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 2em;
+    padding: 1em;
     border:1px solid #00ACBF;
     outline:none;
-    margin: 10px;
+    margin: 1em;
 }
 button{
-    width: 150px;
-    height: 50px;
+    width: 10em;
+    height: 3em;
     font-size: 15px;
     color:white;
     background-color: #00ACBF;
     border:1px solid #00ACBF;
-    border-radius: 30px;
+    border-radius: 3em;
     outline:none;
 }
 .caja-button{
@@ -381,7 +384,7 @@ button{
 /*-----------------------*/
 .containerFooter1{
     width: 100%;
-    height: 300px;
+    height: 20em;
     background-color: #00ACBF;
     color:white ;
     display: flex;
@@ -391,26 +394,26 @@ button{
 
 }
 .containerFooter2{
+    width: 35%;
     display: flex;
     flex-direction: row;
-    margin:5px;
 }
 .cajaFooter{
     color: white;
-    margin:10px;
+    margin:1em;
 }
 .cambios3{
-    width: 40px;
-    height: 40px;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
     background-color: white;
     color: #00ACBF;
     text-align: center;
-    padding-top: 10px;
-    margin:10px;
+    padding-top: 1em;
+    margin:1em;
 }
 .containerFooter3{
     display: flex;
     flex-direction: row;
-    margin: 30px;
+    margin: 1em;
 }
