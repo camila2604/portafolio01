@@ -7,8 +7,9 @@
 }
 body{
     width: 100vw;
-    /*overflow-x:hidden*/
+    overflow-x:hidden
 }
+/*----header----*/
 header{
     width: 100%;
     height: 80px;
@@ -53,13 +54,14 @@ a{
     align-items: center;
     color:white
 }
-/*-----------------------*/
+/*----Container 2----*/
 .padding{
-    padding-top: 5%; /* Separa la parte de arriba para que se vea la foto*/
+    padding-top: 5%; /* Separa la parte de arriba para que se vea la foto completa*/
 }
 main{
     display: flex;
     flex-direction: column;
+    
 }
 .container2{
     background-color:#fcfeff;
@@ -67,6 +69,7 @@ main{
     display: flex;
     flex-direction: row;
     padding-top: 50px;
+    
 }
 h1{
     color:#00ACBF;
@@ -93,7 +96,6 @@ h1{
 .color1{
     color: white;
 }
-
 .imagen{
     width: 50%;
     height: 50%;
@@ -101,10 +103,8 @@ h1{
     justify-content:center;
     align-items: center;
     padding-bottom: 5%;
-
 }
-
-/*-------------------------*/
+/*----Container 3----*/
 .container3{
     width: 100%;
     padding-top: 8%;
@@ -145,8 +145,8 @@ h1{
     flex-direction: column;
     
 }
-.tamaño{
-    font-size: 100%;
+.tamaño-letra{
+    font-size: 20px;
 }
 .fab{
     margin-bottom: 15px;
@@ -175,7 +175,7 @@ h1{
     color:#F34F29;
     font-size: 5em;
 }
-/*-------------------------*/
+/*----"----*/
 .container4{
     background-color:#00ACBF;
     width: 100%;
@@ -203,7 +203,7 @@ h4{
     margin-top: 30px;
 }
 
-/*--------------------------------*/
+/*----Container 5----*/
 .container5{
     width: 100%;
     background-color:#fcfeff;
@@ -253,7 +253,7 @@ h5{
     font-size: 15px;
 }
 
-/*-------------------*/
+/*----Container Final----*/
 .container-final{
     width: 100%;
     background-color: #00acbf15;
@@ -289,8 +289,6 @@ h5{
     padding-left: 30px;
     text-align: center;
 }
-
-
 .container-contactos{
     height: 50em;
     display: flex;
@@ -309,9 +307,8 @@ h5{
     padding:10px;
     text-align: center;
 }
-
-/*--Formulario--*/
-.cajafinal2{
+        /*Formulario*/
+.caja-final2{
     width: 50%;
     flex-direction: row;
     padding-bottom: 15%;
@@ -320,18 +317,13 @@ form{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 7%;
-    /*justify-content: space-between;
-    align-items: flex-start;*/
 }
 .container-form{
     width: 100%;
     display: flex;
     margin-top: 5%;
     padding-right: 10%;
-    /*flex-direction: row;
-    justify-content: space-between;
-    align-items: center;*/
+
 }
 .caja-form{
     width: 100%;
@@ -375,13 +367,9 @@ button{
 .caja-button{
     display: flex;
     justify-content: center;
+    padding-bottom: 10%;
 }
-
-
-
-
-
-/*-----------------------*/
+/*----Container Footer----*/
 .containerFooter1{
     width: 100%;
     height: 20em;
