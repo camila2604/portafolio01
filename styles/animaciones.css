@@ -1,90 +1,112 @@
 .caja:hover{
-    transition-duration:unset;
+    transition-duration:0.1s;
     color:#00ACBF;
 }
 .caja:active{
-    transition-duration:unset;
-    border-radius: 40%;
+    transition-duration:0.1s;
+    border-radius: 30px;
     border: 0.1px solid #00ACBF;
     box-shadow: 0px 0px 10px 1px #00ACBF;
     padding: 10px;
 }
 /*------*/
 .caja1:hover {
-    transition-duration:unset;
+    transition-duration:0.1s;
     background-color:#04def7 ;
 }
 .caja1:active{
-    transition-duration:unset;
+    transition-duration:0.1s;
     border:0.5px solid #00ACBF;
     box-shadow: 0px 0px 10px 3px #00ACBF;
     background-color:#00ACBF ;
 }
 /*------*/
 .lo-que-hago:hover{
-    transition-duration:unset;
+    transition-duration:0.1s;
     background-color:#04def7 ;
 }
 .lo-que-hago:active{
-    transition-duration:unset;
+    transition-duration:0.1s;
     border:0.5px solid #00ACBF;
     box-shadow: 0px 0px 10px 3px #00ACBF;
     background-color:#00ACBF ;
 }
 /*------*/
 .card:hover{
-    transition-duration:unset;
+    transition-duration:0.1s;
     border:1px solid #00ACBF ;
     color:#00ACBF
 }
 
 /*------*/
 .card-foto:hover {
-    transition-duration:unset;
+    transition-duration:0.1s;
     border:2px solid #00ACBF ;
     color: #00ACBF;
 }
 .card-foto:active{
-    transition-duration:unset;
+    transition-duration:0.1s;
     border:0.5px solid #00ACBF;
     box-shadow: 0px 0px 10px 3px #00ACBF;
 }
 
 
 
-/*---- NO TOMA TODO JUNTO, LO HACE POR SEPARADO ----*/
+/*-----*/
 
 .cambios2:hover {
-    transition-duration:unset;
+    transition-duration:0.1s;
     background-color:#00ACBF;
     color:white;
 }
-.color2:hover{
-    transition-duration:unset;
+.color-letras:hover{
+    transition-duration:0.1s;
     color:#00ACBF;
 }
-.caja-active:active{
-    transition-duration: unset;
+.caja-active1:active{
+    transition-duration:0.1s;
     border-radius: 30px;
     border: 1px solid #00ACBF;
-    text-align: center;
+    box-shadow: 0px 0px 10px 3px #00ACBF;
+    width: 200px;
+    height: 45px;
 }
+.caja-active2:active{
+    transition-duration:0.1s;
+    width: 180px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid #00ACBF;
+    box-shadow: 0px 0px 10px 3px #00ACBF;
+}
+.caja-active3:active{
+    transition-duration:0.1s;
+    width: 280px;
+    border-radius: 30px;
+    border: 1px solid #00ACBF;
+    box-shadow: 0px 0px 10px 3px #00ACBF;
+}
+
+
+
+
+
 input:active{
-    transition-duration: unset;
+    transition-duration:0.1s;
     border:0.5px solid #00ACBF;
     box-shadow: 0px 0px 10px 3px #00ACBF;
 }
 textarea:active{
-    transition-duration:unset;
+    transition-duration:0.1s;
     border:0.5px solid #00ACBF;
     box-shadow: 0px 0px 10px 3px #00ACBF; 
 }
 button:hover{
-    transition-duration:unset;
+    transition-duration:0.1s;
     background-color:#04def7 ;
 }
 button:active{
-    transition-duration:unset;
+    transition-duration:0.1s;
     border:0.5px solid #00ACBF;
     box-shadow: 0px 0px 10px 3px #00ACBF;
     background-color:#00ACBF ;
@@ -93,13 +115,13 @@ button:active{
 
 /*------*/
 .cambios3:hover{
-    transition-duration:unset;
+    transition-duration:0.1s;
     background-color:#00ACBF;
     color:white;
     border: 1px solid white;
 }
 .cambios3:active{
-    transition-duration:unset;
+    transition-duration:0.1s;
     border:0.5px solid white;
     box-shadow: 0px 0px 13px 3px white;
 }

@@ -1,0 +1,95 @@
+@media screen and (min-width: 300px) and (max-width: 600px){
+    /*---header---*/
+    header{
+        display: none;
+    }
+    /*---Container 2---*/
+    .container2{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .imagen{
+        width: 80%;
+    }
+    /*---Container 3---*/
+    .conocimientos{
+        font-weight: 800;
+        font-size: 25px;
+        padding-top: 100px;
+    }
+    .parrafo{
+        width: 400px;
+        font-size: 20px;
+    }
+    .container-card{
+        width: 100%;
+    }
+    .card{
+        width: 10em;
+        height: 9em;
+    }
+    .tamaño-letra{
+        font-size: 15px;
+    }
+    /*----"----*/
+    .fa-quote-right{
+        margin-top: 1em;
+    }
+    .parrafo1{
+        width: 100%;
+    }
+    /*---Container 5---*/
+    .proyectos{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .parrafo2{
+        width: 80%;
+    }
+    .container-card2{
+        width: 100%;
+    }
+    .card-foto{
+        width: 100%;
+    }
+    /*---Container final---*/
+    .container-final2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contactame-escribime{
+        font-weight: 600;
+        font-size: 25px;
+        margin-left: 25px;
+    }
+    .lorem{
+        font-size:15px ;
+    }
+    .caja-final1{
+        width: 100%;
+    }
+    .caja-final2{
+        width: 100%;
+    }
+    .container-form{
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+        
+    }
+    .caja-button{
+        padding-bottom: 10%;
+    }
+    /*---Footer---*/
+    .containerFooter2{
+        display: none;
+    }
+
+}
